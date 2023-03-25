@@ -127,7 +127,6 @@ void selectionSort(int* pData, int n)
 		temp = pData[i];
 		pData[i] = pData[min_idx];
 		pData[min_idx] = temp;
-		printArray(pData, n);
 	}
 }
 
